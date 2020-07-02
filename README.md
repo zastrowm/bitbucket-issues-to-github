@@ -35,6 +35,8 @@ Here's a warning:
 
 # Configuration
 
+## Basic Options
+
 Most of the configuration is straightforward - you'll need:
 
 - the path to the exported bitbucket json (in 2.0 format)
@@ -47,6 +49,14 @@ Additionally, you'll need a *personal access token*; this isn't specified in the
 > ### Note: "Machine Account" user for issues
 >
 > Since all issues are created from the account of the personal-access-token, you may wish to create a secondary ["machine account"](https://docs.github.com/en/github/site-policy/github-terms-of-service#3-account-requirements) for the purposes of importing issues; per the link provided, this is totally okay by GitHub, and IMHO makes it much more clear that the issue was imported rather than native. 
+
+## Closed Status
+
+GitHub only has open or closed issues, while bitbucket has much more rich statuses like "duplicate", "invalid" etc.  You can specify the statuses that indicate that an issue is "closed".
+
+## Mapping Users
+
+The original author of an issue/comment/action is listed in each comment.  By default the original author's display name is set as the author; for example if I had commented on an issue, it would show up as "Mackenzie Zastrow commented".  If you instead want to map "Mackenzie Zastrow" to @zastrowm, you can use that using the `userMapping` dictionary.
 
 [linqpad]: https://www.linqpad.net/
 

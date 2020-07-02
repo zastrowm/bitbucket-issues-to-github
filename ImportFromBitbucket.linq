@@ -40,14 +40,6 @@ Dictionary<string, string> userMapping = new Dictionary<string, string>{
   { "Mackenzie Zastrow",       "@zastrowm" },
   { "Izzy Coding ",            "@izzycoding" },
   { "Ruben Hakopian",          "@rubenhak" },
-  { "John Lewin",              "@jlewin" },
-  { "Daniel Rose",             "@DanielRose" },
-  { "Brandon Ording",          "@bording" },
-  { "Tomasz Pluskiewicz",      "@tpluscode" },
-  { "Mathieu van Loon",        "[Mathieu van Loon](https://bitbucket.org/Matsie911)" },
-  { "Andreas Gullberg Larsen", "@angularsen" },
-  { "Frederik Carlier",        "@qmfrederik" },
-  { "James John McGuire",      "@jamesjohnmcguire" },
 };
 
 async Task Main()
