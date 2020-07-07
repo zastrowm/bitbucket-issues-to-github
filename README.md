@@ -56,7 +56,7 @@ GitHub only has open or closed issues, while bitbucket has much more rich status
 
 ## Mapping Users
 
-The original author of an issue/comment/action is listed in each comment.  By default the original author's display name is set as the author; for example if I had commented on an issue, it would show up as "Mackenzie Zastrow commented".  If you instead want to map "Mackenzie Zastrow" to @zastrowm, you can use that using the `userMapping` dictionary.
+The original author of an issue/comment/action is listed in each comment.  By default the original author's display name is set as the author; for example if I had commented on an issue, it would show up as "Mackenzie Zastrow commented".  If you instead want to map "Mackenzie Zastrow" to @zastrowm", you can do that using the `userMapping` dictionary, after which, the text would show up as "@zastrowm commented".
 
 [linqpad]: https://www.linqpad.net/
 
